@@ -26,16 +26,5 @@ jQuery(document).ready(function() {
   console.log(char3);
   console.log(char3 + final);
   
-  // function newSentence(string) {
-  //   console.log(sentence.concat(char2 + char1));
-  // }
-
-  // newSentence();
-
-  // const char1 = sentence.charAt(0).toUpperCase();
-  // const char2 = sentence.charAt(sentence.length - 1).toUpperCase();
-  
-  // console.log(char2 + char1);
-
 });
 
