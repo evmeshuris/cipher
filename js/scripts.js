@@ -11,19 +11,20 @@ jQuery(document).ready(function() {
   };
   const alltogether = newString(sentence);
   
-  console.log(sentence + alltogether)
+  const final = sentence + alltogether;
   
   let length = sentence.length;
   console.log(length);
   document.getElementById("demo").innerHTML = length;
   
-  let divided = (length / 2) - 1;
+  let divided = (length / 2);
   divided.toFixed(0);
   console.log(divided);
 
+
   let char3 = sentence.charAt(divided);
   console.log(char3);
-
+  console.log(char3 + final);
   
   // function newSentence(string) {
   //   console.log(sentence.concat(char2 + char1));
