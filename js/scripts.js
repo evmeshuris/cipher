@@ -1,11 +1,16 @@
-.green-background {
-  background-color: green;
-}
+$(document).ready(function() {
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
 
-.yellow-background {
-  background-color: yellow;
-}
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
 
-.red-background {
-  background-color: red;
-}
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+});

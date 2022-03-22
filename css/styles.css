@@ -1,13 +1,11 @@
-$(document).ready(function() {
-    $("button#green").click(function() {
-      $("body").addClass("green-background");
-    });
-  
-    $("button#yellow").click(function() {
-      $("body").addClass("yellow-background");
-    });
-  
-    $("button#red").click(function() {
-      $("body").addClass("red-background");
-    });
-  });
+.green-background {
+    background-color: green;
+  }
+
+.yellow-background {
+    background-color: yellow;
+}
+
+.red-background {
+    background-color: red;
+}
